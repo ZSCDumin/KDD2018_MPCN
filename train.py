@@ -14,13 +14,13 @@ random.seed(1337)
 import os
 from tqdm import tqdm
 from utilities import *
-from metrics import *
+from sklearn.metrics import *
 import time
 import tensorflow as tf
 import sys
 from sklearn.utils import shuffle
 from collections import Counter
-import cPickle as pickle
+import _pickle as pickle
 from keras.utils import np_utils
 import visdom
 import string

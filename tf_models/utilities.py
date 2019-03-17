@@ -1,4 +1,4 @@
-import cPickle as pickle
+import _pickle as pickle
 import hickle
 import numpy as np
 
